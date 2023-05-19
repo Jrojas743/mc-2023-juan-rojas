@@ -1,0 +1,13 @@
+import numpy as np
+
+# Definir la matriz
+matrix = np.array([[1, 0, -1],
+                   [2, 0, 2],
+                   [8, 2, -3]])
+
+# Calcular la inversa de la matriz
+inverse = np.linalg.inv(matrix)
+
+# Imprimir la matriz inversa
+print("Matriz Inversa:")
+print(inverse)
